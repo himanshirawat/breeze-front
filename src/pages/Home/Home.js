@@ -1,11 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import InfiniteScroll from "react-infinite-scroll-component";
-import {
-  Navbar,
-  HotelCard,
-  Categories,
-  SearchStayWithDate,
+import {Navbar,HotelCard,Categories,SearchStayWithDate,
   Filter,
   AuthModal,
   ProfileDropDown,
@@ -46,7 +42,7 @@ export const Home = () => {
     (async () => {
       try {
         const { data } = await axios.get(
-          `https://travelapp.cyclic.app/api/hotels?category=${hotelCategory}`
+          `https://breeze-backend.onrender.com/api/hotels?category=${hotelCategory}`
         );
 
         setTestData(data);

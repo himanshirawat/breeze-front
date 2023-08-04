@@ -13,3 +13,7 @@ const CategoryProvider = ({ children }) => {
     </CategoryContext.Provider>
   );
 };
+
+const useCategory = () => useContext(CategoryContext);
+
+export { useCategory, CategoryProvider };
