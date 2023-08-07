@@ -2,13 +2,14 @@ import axios from "axios";
 
 export const loginHandler = async (number, password, setAlert) => {
   try {
+    console.log(number,password);
     const {
       data: { accessToken, username },
     } = await axios.post(
       "https://breeze-backend.onrender.com/api/auth/login",
       {
-        number: number,
-        password: password,
+      number : number, 
+      password : password
       }
     );
     console.log("Logged IN");
