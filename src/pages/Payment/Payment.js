@@ -61,8 +61,8 @@ export const Payment = () => {
       key: "rzp_test_VSdp7X3K39GwBK",
       amount: totalPayableAmount * 100,
       currency: "INR",
-      name: "TravelO",
-      email: "himanhsi@gmail.com",
+      name: "breezetravel",
+      email: "himanshi@gmail.com",
       contact: "6362613629",
       description: "Thank you for booking with us",
 
@@ -90,7 +90,7 @@ export const Payment = () => {
       <header className="heading">
         <h1 className="heading-1">
           <Link className="link" to="/">
-            TravelO
+            Breeze Travel
           </Link>
         </h1>
       </header>
@@ -149,7 +149,7 @@ export const Payment = () => {
           </div>
           <div className="tag">
             Your booking is protected by{" "}
-            <strong className="strong">TravelO</strong> cover
+            <strong className="strong">breezetravel</strong> cover
           </div>
           <div className="price-detail-container">
             <div className="price-distribution d-flex direction-column">

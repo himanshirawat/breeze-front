@@ -31,7 +31,7 @@ export const Home = () => {
     noOfBedrooms,
     noOfBeds,
     propertyType,
-    traveloRating,
+    breezetravelRating,
     isCancelable,
   } = useFilter();
 
@@ -85,7 +85,7 @@ export const Home = () => {
 
   const filteredHotelsByRatings = getHotelsByRatings(
     filteredHotelsByPropertyType,
-    traveloRating
+    breezetravelRating
   );
 
   const filteredHotelsByCancelation = getHotelsByCancelation(
