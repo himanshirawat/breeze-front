@@ -62,8 +62,8 @@ export const Payment = () => {
       amount: totalPayableAmount * 100,
       currency: "INR",
       name: "TravelO",
-      email: "sakari@gmail.com",
-      contact: "9876543210",
+      email: "himanhsi@gmail.com",
+      contact: "6362613629",
       description: "Thank you for booking with us",
 
       handler: ({ payment_id }) => {
@@ -75,9 +75,9 @@ export const Payment = () => {
         navigate("/order-summary");
       },
       prefill: {
-        name: "Prakash Sakari",
-        email: "sakari@gmail.com",
-        contact: "9876543210",
+        name: "Himanshi Rawat",
+        email: "himashi@gmail.com",
+        contact:"6362613629",
       },
     };
 
