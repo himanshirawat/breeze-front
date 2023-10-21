@@ -1,4 +1,4 @@
-# Fun Food
+# Breeze Hotel
 
 A Travel App book your stays here !!!
 Breeze shows you the quickest, cheapest and most eco-friendly options for the journey you want to take. Find live, local information you can rely on. Find stops and public transport options available near you.
